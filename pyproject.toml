@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-girls"
+version = "0.1.0"
+description = ""
+authors = ["kykypi <kylee.burgess.14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "3.2.10"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.4.5"
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
